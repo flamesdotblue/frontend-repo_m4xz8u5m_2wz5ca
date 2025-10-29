@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import APIStatus from './components/APIStatus';
 import CTA from './components/CTA';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <APIStatus />
         <CTA />
       </main>
       <footer className="border-t border-white/10 bg-black/80">
